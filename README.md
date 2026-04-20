@@ -10,9 +10,9 @@ This project demonstrates **Software Defined Networking (SDN)** behavior across 
 The core idea: instead of switches making their own routing decisions, **all intelligence lives in the controller**. Switches are just dumb forwarders — they ask the controller what to do when they see an unknown packet.
 
 The network is tested under three conditions:
-- ✅ Normal connectivity
-- ❌ Link failure (s2–s3 goes down)
-- 🔁 Link recovery (s2–s3 comes back up)
+-  Normal connectivity
+-  Link failure (s2–s3 goes down)
+-  Link recovery (s2–s3 comes back up)
 
 ---
 
